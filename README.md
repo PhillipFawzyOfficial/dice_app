@@ -1,16 +1,22 @@
-# dice_app
+# Dice App 🎲
 
-A new Flutter project.
+Dice App is a simple Flutter application that simulates rolling a dice.  
+When the user presses the button, the app generates a random number from 1 to 6 and displays the corresponding dice image.
+
+## Features
+- Roll the dice with one click
+- Random numbers from 1 to 6
+- Simple and clean user interface
+
+## Built With
+- Flutter
+- Dart
+
+## How It Works
+The application uses a random number generator to change the dice image every time the user presses the roll button.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository
