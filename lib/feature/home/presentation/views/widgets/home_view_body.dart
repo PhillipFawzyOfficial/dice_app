@@ -1,3 +1,4 @@
+import 'package:dice_app/feature/home/presentation/views/widgets/dice_roller.dart';
 import 'package:flutter/material.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -13,7 +14,7 @@ class HomeViewBody extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
       ),
-      child: Center(child: Image.asset('assets/images/dice-1.png', width: 200)),
+      child: Center(child: DiceRoller()),
     );
   }
 }
